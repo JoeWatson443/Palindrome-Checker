@@ -6,7 +6,7 @@ const checkForPalindrome = (input) => {
     const originalInput = input;
 
     if (input === '') {
-        alert('Please input a value');
+        alert('Please enter a word or phrase (or number)');
         return;
     }
 
