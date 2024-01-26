@@ -108,7 +108,6 @@ textarea:not([rows]) {
 
 
 --ff: "Enriqueta", serif;
-
 }
 
 .darkmode {
@@ -294,7 +293,8 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(16px, 6vw, 40px);
+  /* font-size: clamp(16px, 6vw, 40px); */
+  font-size: clamp(1.19rem, 10.77vw + -0.97rem, 2.5rem);
   font-family: var(--ff);
   text-transform: uppercase;
   color: var(--clr-text);
